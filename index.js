@@ -26,7 +26,7 @@ let article = `<div class="art">
     <p>Authors name in Topics Name · 7 july</p>
 </div>
 <div class="art-in">
-    <p class="title" id="title"> </p>
+    <a href="article.html"> <p class="title" id="title"> </p></a>
     <p class="summary" id="summary"> </p>
 </div>
 <div class="info-btn">

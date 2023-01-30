@@ -156,6 +156,75 @@ body {
     text-align: center;
 }
 
-.section-news{
+.section-news {
     margin-bottom: 700px;
+}
+
+.left-img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
+
+.author-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 100px;
+    height: 24px;
+}
+
+.top img {
+    width: 64px;
+    height: 64px;
+}
+
+.author {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px;
+    gap: 12px;
+}
+
+.mediana img {
+    width: 1120px;
+    height: 480px;
+    border-radius: 4px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.shared-counter {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-bottom: 300px;
+}
+
+.like-counter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
 }
